@@ -1,0 +1,44 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.promptR {
+    justify-content: center;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-image: url(../css/nuvole_background.jpg);
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.userMsg {
+    background-color: #FCE4E7;
+    justify-content: center;
+}
+
+.IAmsg {
+    background-color: #C6EAF4;
+
+}
+
+h1 {
+    font-family: "Purple Purse", serif;
+    font-weight: 400;
+    font-style: bold;
+    letter-spacing: 2px;
+}
+
+.IAmsgRow .userMsgRow {
+    align-items: center !important;
+}
